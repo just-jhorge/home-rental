@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header {
+	background-image: url("/cover.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	object-fit: contain;
+}

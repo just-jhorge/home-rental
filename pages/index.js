@@ -1,6 +1,10 @@
 import Head from "next/head";
+import Header from "../components/Header";
+import Features from "../components/Features";
+import { server } from "../config";
+import Properties from "../components/Properties";
 
-export default function Home() {
+export default function Home({ properties }) {
 	return (
 		<>
 			<Head>
@@ -9,7 +13,22 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<main>Home rental</main>
+			<main>
+				<Header />
+				<Features />
+				<Properties properties={properties} />
+			</main>
 		</>
 	);
 }
+
+export const getStaticProps = async () => {
+	const res = await fetch(`${server}/api/properties`);
+	const properties = await res.json();
+
+	return {
+		props: {
+			properties,
+		},
+	};
+};
