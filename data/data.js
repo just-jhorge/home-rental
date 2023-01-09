@@ -1,7 +1,21 @@
+const images = [
+	"/building-1.jpg",
+	"/building-2.jpg",
+	"/building-3.jpg",
+	"/building-4.jpg",
+	"/building-5.jpg",
+	"/building-6.jpg",
+	"/building-7.jpg",
+	"/building-8.jpg",
+	"/building-9.jpg",
+	"/building-10.jpg",
+];
+
 export const properties = [
 	{
 		id: 1,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -11,6 +25,7 @@ export const properties = [
 	{
 		id: 2,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -20,6 +35,7 @@ export const properties = [
 	{
 		id: 3,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -29,15 +45,17 @@ export const properties = [
 	{
 		id: 4,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
-		bath: 2,
+		bath: 5,
 		sqrInch: 2,
 	},
 	{
 		id: 5,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -47,6 +65,7 @@ export const properties = [
 	{
 		id: 6,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -56,6 +75,7 @@ export const properties = [
 	{
 		id: 7,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -65,6 +85,7 @@ export const properties = [
 	{
 		id: 8,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -74,6 +95,7 @@ export const properties = [
 	{
 		id: 9,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -83,6 +105,7 @@ export const properties = [
 	{
 		id: 10,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -92,6 +115,7 @@ export const properties = [
 	{
 		id: 11,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -101,6 +125,7 @@ export const properties = [
 	{
 		id: 12,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 800,
 		bedrooms: 4,
@@ -110,6 +135,7 @@ export const properties = [
 	{
 		id: 13,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -119,6 +145,7 @@ export const properties = [
 	{
 		id: 14,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -128,6 +155,7 @@ export const properties = [
 	{
 		id: 15,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -137,6 +165,7 @@ export const properties = [
 	{
 		id: 16,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -146,6 +175,7 @@ export const properties = [
 	{
 		id: 17,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -155,6 +185,7 @@ export const properties = [
 	{
 		id: 18,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -164,6 +195,7 @@ export const properties = [
 	{
 		id: 19,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -173,6 +205,7 @@ export const properties = [
 	{
 		id: 20,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -182,6 +215,7 @@ export const properties = [
 	{
 		id: 21,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -191,6 +225,7 @@ export const properties = [
 	{
 		id: 22,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -200,6 +235,7 @@ export const properties = [
 	{
 		id: 23,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
@@ -209,6 +245,7 @@ export const properties = [
 	{
 		id: 24,
 		name: "2578 Folsom Street, San Francisco, CA, 94110",
+		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,

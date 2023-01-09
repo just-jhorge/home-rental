@@ -26,7 +26,7 @@ const Properties = ({ properties }) => {
 						<span className="border-b-4 border-orange-600">List</span> of
 						Properties
 					</h1>
-					<button className="bg-orange-600 text-sm md:text-base text-white px-6 py-3 rounded-md">
+					<button className="bg-orange-600 text-xs md:text-base text-white px-3 md:px-6 py-2 md:py-3 rounded-md">
 						View all properties
 					</button>
 				</div>
@@ -35,6 +35,7 @@ const Properties = ({ properties }) => {
 						<PropertyCard
 							key={property.id}
 							name={property.name}
+							imgSrc={property.image}
 							type={property.roomType}
 							amount={property.rent}
 							bedrooms={property.bedrooms}
