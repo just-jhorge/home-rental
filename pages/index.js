@@ -3,6 +3,9 @@ import Header from "../components/Header";
 import Features from "../components/Features";
 import Properties from "../components/Properties";
 import { properties } from "../data/data";
+import Rooms from "../components/Rooms";
+import Onboarding from "../components/Onboarding";
+import Playback from "../components/Playback";
 
 export default function Home() {
 	return (
@@ -17,6 +20,9 @@ export default function Home() {
 				<Header />
 				<Features />
 				<Properties properties={properties} />
+				<Rooms />
+				<Onboarding />
+				<Playback />
 			</div>
 		</>
 	);
