@@ -13,9 +13,9 @@ const Properties = ({ properties }) => {
 		indexOfLastProperty
 	);
 
-	const paginate = (value) => {
+	const paginate = (_, value) => {
 		setCurrentPage(value);
-		window.scrollTo({ top: 1800, behavior: "smooth" });
+		window.scrollTo({ top: 1250, behavior: "smooth" });
 	};
 
 	return (

@@ -29,7 +29,7 @@ export const properties = [
 		roomType: "private",
 		rent: 1200,
 		bedrooms: 4,
-		bath: 2,
+		bath: 3,
 		sqrInch: 2,
 	},
 	{
@@ -98,7 +98,7 @@ export const properties = [
 		image: images[Math.ceil(Math.random() * images.length)],
 		roomType: "private",
 		rent: 1200,
-		bedrooms: 4,
+		bedrooms: 15,
 		bath: 2,
 		sqrInch: 2,
 	},
@@ -250,6 +250,6 @@ export const properties = [
 		rent: 1200,
 		bedrooms: 4,
 		bath: 2,
-		sqrInch: 2,
+		sqrInch: 13,
 	},
 ];
