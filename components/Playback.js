@@ -3,10 +3,10 @@ import ReactPlayer from "react-player/youtube";
 
 const Playback = () => {
 	return (
-		<section className="h-[27rem] w-full bg-orange-50 flex items-center justify-center">
-			<div className="h-full container flex items-center justify-center gap-10">
-				<div className="h-full w-1/2 py-20">
-					<div className="relative">
+		<section className="h-auto md:h-[27rem] w-full bg-orange-50 flex items-center justify-center">
+			<div className="h-full md:container flex flex-col md:flex-row items-center justify-center gap-10">
+				<div className="h-full w-full md:w-1/2 py-20">
+					<div className="relative px-6 md:px-0">
 						<ImQuotesLeft className="absolute -top-14 -left-14 text-8xl text-red-300 opacity-50" />
 						<p className="leading-loose font-semibold mb-5">
 							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
@@ -36,8 +36,12 @@ const Playback = () => {
 						</div>
 					</div>
 				</div>
-				<div className="w-1/2">
-					<ReactPlayer url="https://youtu.be/QxCLWQdZdmg" height={432} />
+				<div className="w-full md:w-1/2">
+					<ReactPlayer
+						url="https://youtu.be/QxCLWQdZdmg"
+						height="432px"
+						width="100%"
+					/>
 				</div>
 			</div>
 		</section>
